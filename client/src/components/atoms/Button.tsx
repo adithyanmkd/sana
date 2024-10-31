@@ -1,3 +1,5 @@
+import clsx from "clsx";
+
 type ButtonProp = {
   label: string;
   classname?: string;
@@ -12,15 +14,22 @@ const Button = ({ label, classname = "", icon }: ButtonProp) => {
   return (
     <div>
       <button
-        className={`bg-primary rounded-[30px] px-[18px] py-2 text-xs text-white md:text-base ${classname}`}
+        className={clsx(
+          `bg-primary h-[40px] rounded-[30px] px-[18px] text-xs text-white md:text-base ${classname}`,
+          icon && "flex items-center",
+        )}
       >
         {label}
+        {icon && (
+          <span>
+            <img
+              className={`ml-1 ${icon.classname}`}
+              src={icon.src}
+              alt={icon.alt}
+            />
+          </span>
+        )}
       </button>
-      {icon && (
-        <div>
-          <img className={`${icon.classname}`} src={icon.src} alt={icon.alt} />
-        </div>
-      )}
     </div>
   );
 };

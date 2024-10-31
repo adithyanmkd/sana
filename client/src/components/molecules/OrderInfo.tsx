@@ -1,7 +1,13 @@
 import DeliveryTruck from "../../assets/icons/delivery-van.svg";
+import Arrow from "../../assets/icons/arrow-white.svg";
 import MsgIcon from "../../assets/icons/msg.svg";
 
 import Button from "../atoms/Button";
+
+const arrowRight = {
+  src: Arrow,
+  alt: "arrow",
+};
 
 const OrderInfo = () => {
   return (
@@ -19,7 +25,7 @@ const OrderInfo = () => {
         </p>
       </div>
       <div className="flex justify-end">
-        <Button label="Order Now" />
+        <Button label="Order Now" icon={arrowRight} />
       </div>
     </div>
   );
