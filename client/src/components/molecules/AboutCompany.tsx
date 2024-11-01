@@ -2,7 +2,7 @@ import CompanyPhoto from "../../assets/images/company-photo.svg";
 
 const AboutCompany = () => {
   return (
-    <div className="mx-auto max-w-screen-lg px-5 md:max-lg:max-w-xl">
+    <div className="mx-auto max-w-screen-lg px-5">
       <h2 className="mb-5 text-2xl font-medium">
         About Company
         <span>
@@ -35,7 +35,7 @@ const AboutCompany = () => {
         </div>
         <div>
           <img
-            className="mt-4 w-[400px] lg:w-[350px]"
+            className="mx-auto mt-4 w-[400px] lg:w-[350px]"
             src={CompanyPhoto}
             alt="company photo"
           />

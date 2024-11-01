@@ -26,7 +26,7 @@ const ReviewSection = () => {
           </div>
         </span>
       </h2>
-      <div className="relative mx-auto mt-8 max-w-[764px] rounded-[60px] bg-[#D7EBEE] bg-opacity-30">
+      <div className="relative mx-auto mt-8 max-w-screen-sm rounded-[60px] bg-[#D7EBEE] bg-opacity-30">
         <img className="absolute left-4 top-6 w-10" src={Comma} alt="comma" />
         <p className="px-8 py-16 text-[#494949]">
           Elementum delivered the site with inthe timeline as they requested.

@@ -21,7 +21,7 @@ const ProductSection = () => {
             Premium Water Distribution, Every Drop Counts
           </p>
         </div>
-        <div className="grid justify-items-center space-y-8 lg:grid-cols-3 lg:space-y-0 lg:pt-4">
+        <div className="mx-auto mt-8 grid justify-items-center space-y-8 md:max-w-screen-md md:grid-cols-2 md:gap-8 md:space-y-0 lg:max-w-full lg:grid-cols-3">
           <ProductCard />
           <ProductCard />
           <ProductCard />

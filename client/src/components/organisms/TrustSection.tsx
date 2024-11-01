@@ -35,7 +35,7 @@ const TrustSection = () => {
           pure, and high-quality water you can trust.
         </p>
       </div>
-      <div className="mx-auto mt-4 grid w-[200px] max-w-[243px] grid-cols-2 place-items-center gap-4 md:w-full md:max-w-[702px] md:grid-cols-4">
+      <div className="mx-auto mt-4 grid w-[350px] max-w-[400px] grid-cols-4 place-items-center gap-4 md:w-full md:max-w-[702px]">
         {certificates.map((certificate, index) => (
           <img
             className=""
