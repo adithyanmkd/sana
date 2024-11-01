@@ -5,7 +5,7 @@ import AppThumbnail from "../../assets/images/appThumbnail.svg";
 const DownloadAppSection = () => {
   return (
     <div className="mx-auto mt-2 max-w-screen-lg px-5 pb-[30px] lg:flex lg:items-center">
-      <div className="mx-auto max-w-screen-sm">
+      <div className="mx-auto max-w-[515px]">
         <h2 className="text-center text-[34px] font-semibold lg:text-left">
           Download Our App
         </h2>
