@@ -9,7 +9,7 @@ import TrustSection from "../organisms/TrustSection";
 
 const Home = () => {
   return (
-    <div className="min-h-screen w-full">
+    <div className="min-h-screen max-w-full overflow-x-hidden">
       <Banner />
       <OrderInfo />
       <ProductSection />
