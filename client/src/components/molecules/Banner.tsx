@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import Navbar from "../organisms/Navbar";
 
 const images = [
-  "/banners/banner-1.svg",
-  "/banners/banner-1.svg",
-  "/banners/banner-1.svg",
+  "banners/banner-1.svg",
+  "banners/banner-1.svg",
+  "banners/banner-1.svg",
 ];
 
 const Banner = () => {
