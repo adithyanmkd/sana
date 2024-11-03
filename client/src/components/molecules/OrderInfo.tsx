@@ -22,7 +22,8 @@ const OrderInfo = () => {
         <div className="flex space-x-7">
           <img src={MsgIcon} alt="msg icon" />
           <p className="text-lg font-semibold text-[#EBEBEB]">
-            +971 56 75 33072 <span className="block">info@sanawater.com</span>
+            +971 56 75 33072
+            <span className="block">info@sanawater.com </span>
           </p>
         </div>
         <div className="flex justify-end">

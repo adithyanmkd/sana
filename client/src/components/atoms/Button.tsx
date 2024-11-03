@@ -15,7 +15,7 @@ const Button = ({ label, classname = "", icon }: ButtonProp) => {
     <div>
       <button
         className={clsx(
-          `bg-primary h-[40px] rounded-[30px] px-[18px] text-xs text-white md:text-base ${classname}`,
+          `h-[40px] rounded-[30px] bg-primary px-[18px] text-xs text-white transition-colors hover:bg-blue-700 md:text-base ${classname}`,
           icon && "flex items-center",
         )}
       >

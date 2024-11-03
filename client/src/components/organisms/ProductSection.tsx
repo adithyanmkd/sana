@@ -28,7 +28,7 @@ const ProductSection = () => {
         </div>
         <Button
           label="View All"
-          classname="bg-white !text-primary border border-primary mt-[40px] mx-auto"
+          classname="bg-white  !text-primary border border-primary mt-[40px] mx-auto hover:bg-blue-50"
           icon={arrowRight}
         />
       </div>

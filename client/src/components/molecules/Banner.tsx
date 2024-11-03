@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Navbar from "../organisms/Navbar";
+import MobielSidebar from "../organisms/MobielSidebar";
 
 const images = [
   "banners/banner-1.svg",
@@ -23,6 +24,7 @@ const Banner = () => {
   return (
     <div className="relative overflow-hidden">
       <Navbar />
+      <MobielSidebar />
       <div
         className={`flex transition-transform duration-700 ease-in-out`}
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
