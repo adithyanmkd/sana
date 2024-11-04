@@ -32,7 +32,7 @@ const navLinks = [
 const MobileSidebar = ({ toggleMenu }: NavbarProps) => {
   return (
     <div className="relative min-h-screen overflow-hidden md:hidden">
-      <div className="absolute w-full px-5 pt-1">
+      <div className="absolute w-full px-5 pt-3">
         <div className="flex items-center justify-between">
           <div>
             <img className="w-16 sm:w-24 md:w-36" src={Logo} alt="sana logo" />
