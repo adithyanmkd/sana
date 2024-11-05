@@ -7,7 +7,13 @@ import ProductSection from "../organisms/ProductSection";
 import ReviewSection from "../organisms/ReviewSection";
 import TrustSection from "../organisms/TrustSection";
 
+import { useEffect } from "react";
+
 const Home = () => {
+  useEffect(() => {
+    document.title = "Sana Water";
+  }, []);
+
   return (
     <div className="min-h-screen max-w-full overflow-x-hidden">
       <Banner />
