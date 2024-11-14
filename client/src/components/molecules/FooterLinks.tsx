@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 type LinkProps = {
   heading: string;
   linksArray: {
@@ -12,9 +14,9 @@ const FooterLinks = ({ heading, linksArray }: LinkProps) => {
       <h4 className="text-[20px] font-bold text-white">{heading}</h4>
       <div className="mt-4 space-y-2 text-sm text-[#DDDDDE]">
         {linksArray.map((data, index) => (
-          <a key={index} className="block capitalize" href={data.url}>
+          <Link key={index} className="block capitalize" to={data.url}>
             {data.name}
-          </a>
+          </Link>
         ))}
       </div>
     </div>

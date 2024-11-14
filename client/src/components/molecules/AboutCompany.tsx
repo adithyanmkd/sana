@@ -9,17 +9,17 @@ const AboutCompany = () => {
           <div className="mt-[6px] h-[2px] w-[100px] bg-black"></div>
         </span>
       </h2>
-      <div className="lg:flex lg:space-x-8">
+      <div className="items-center lg:flex lg:space-x-8">
         <div>
-          <p className="max-w-screen-md leading-[160%] text-[#494949]">
+          <p className="max-w-screen-md text-justify leading-[160%] text-[#494949]">
             Lorem ipsum dolor sit amet consectetur. Viverra orci auctor
             vulputate duis enim imperdiet viverra amet. Sem facilisis mattis
             mattis vitae sed id tortor vel. Eget vulputate nibh sagittis nisl
             condimentum sed placerat eget lacus. Aenean neque sagittis aliquam
             tellus neque est.Lorem ipsum dolor sit amet consectetur. Viverra
             orci auctor vulputate duis enim imperdiet viverra amet. Sem
-            facilisis mattis mattis vitae sed id tortor vel.
-            <span className="text-nowrap text-primary lg:hidden">
+            facilisis mattis mattis vitae sed id tortor vel
+            <span className="ml-1 text-nowrap text-primary lg:hidden">
               Read More...
             </span>
             <span className="ml-[2px] hidden lg:inline">

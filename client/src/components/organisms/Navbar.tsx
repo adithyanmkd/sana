@@ -3,12 +3,14 @@ import MenuIcon from "../../assets/icons/menu-icon.svg";
 import MobileSidebar from "./MobileSidebar";
 
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 import Button from "../atoms/Button";
 
 const navLinks = [
   {
     name: "home",
-    url: "#",
+    url: "/",
   },
   {
     name: "about us",
@@ -52,13 +54,13 @@ const Navbar = () => {
               />
               <div className="hidden space-x-5 rounded-[30px] bg-white bg-opacity-80 px-2 py-2 md:flex">
                 {navLinks.map((data, index) => (
-                  <a
+                  <Link
                     className="text-nowrap rounded-[24px] px-2 py-2 capitalize text-[#505050] opacity-100 transition-all hover:scale-105 hover:bg-white hover:text-black lg:px-4"
                     key={index}
-                    href={data.url}
+                    to={data.url}
                   >
                     {data.name}
-                  </a>
+                  </Link>
                 ))}
                 <Button label="Contact Us" classname="text-nowrap" />
               </div>

@@ -7,7 +7,7 @@ const links = [
     linksArray: [
       {
         name: "home",
-        url: "#",
+        url: "/",
       },
       {
         name: "about us",
@@ -32,7 +32,7 @@ const links = [
       },
       {
         name: "privacy policy",
-        url: "#",
+        url: "/privacy-policy",
       },
       {
         name: "cookie policy",
