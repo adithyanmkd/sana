@@ -29,11 +29,12 @@ const ReviewSection = () => {
       <div className="relative mx-auto mt-8 max-w-screen-sm rounded-[60px] bg-[#D7EBEE] bg-opacity-30">
         <img className="absolute left-4 top-6 w-10" src={Comma} alt="comma" />
         <p className="px-8 py-16 text-[#494949]">
-          Elementum delivered the site with inthe timeline as they requested.
-          Inthe end, the client found a 50% increase in traffic with in days
-          since its launch. They also had an impressive ability to use
-          technologies that the company hasn`t used, which have also proved to
-          be easy to use and reliable
+          Sana Water has been our go-to water supplier for over a decade. Their
+          service is incredibly reliable, and the water quality is consistently
+          top-notch. We wouldn't choose anyone else!
+          <span className="block text-right italic text-black">
+            — Ayesha R., Dubai
+          </span>
         </p>
         <img
           className="absolute bottom-6 right-4 w-10 scale-x-[-1] scale-y-[-1]"

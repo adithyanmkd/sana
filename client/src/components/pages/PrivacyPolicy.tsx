@@ -154,7 +154,7 @@ const PrivacyPolicy = () => {
         <p className="mb-2 text-gray-700">
           Sana Pure Drinking Water Company
           <br />
-          Email:{" "}
+          Email:
           <a
             href="mailto:sanapurewater@yahoo.com"
             className="text-blue-600 underline"

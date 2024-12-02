@@ -1,6 +1,8 @@
 import Banner from "../molecules/Banner";
+import CompanyGallery from "../molecules/CompanyGallery";
 import OrderInfo from "../molecules/OrderInfo";
 import AboutSection from "../organisms/AboutSection";
+import CommitmentSection from "../organisms/CommitmentSection";
 import DownloadAppSection from "../organisms/DownloadAppSection";
 import Footer from "../organisms/Footer";
 import ProductSection from "../organisms/ProductSection";
@@ -15,12 +17,14 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="min-h-screen max-w-full overflow-x-hidden">
+    <div className="min-h-screen max-w-full overflow-x-hidden bg-[#F9FAFC]">
       <Banner />
       <OrderInfo />
       <ProductSection />
       <TrustSection />
       <AboutSection />
+      <CommitmentSection />
+      <CompanyGallery />
       <ReviewSection />
       <DownloadAppSection />
       <Footer />

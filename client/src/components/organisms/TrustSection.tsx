@@ -27,12 +27,18 @@ const TrustSection = () => {
     <div className="bg-[#E3F9FF] px-5 pb-[30px] pt-8">
       <div>
         <h2 className="mb-6 text-center text-[34px] font-semibold leading-[120%] md:text-4xl">
-          Trusted Standards & Certifications
+          A Legacy of Trust and Excellence
         </h2>
         <p className="mx-auto max-w-[740px] text-sm leading-[160%] text-[#494949] md:text-center">
-          At Sana Water Supply, our ISO 22000, HACCP, Low Sodium, and Emirates
-          Quality Mark certifications reflect our commitment to delivering safe,
-          pure, and high-quality water you can trust.
+          Founded by{" "}
+          <span className="font-semibold text-black">
+            Mr. Shamsudheen Manal Parambil
+          </span>
+          , an Indian expatriate with a vision and relentless dedication, Sana
+          Water has grown to become a household name in the UAE. Through hard
+          work and a steadfast commitment to quality, Mr. Shamsudheen has built
+          a thriving business that stands as a testament to his perseverance and
+          entrepreneurial spirit.
         </p>
       </div>
       <div className="mx-auto mt-4 grid w-[350px] max-w-[400px] grid-cols-4 place-items-center gap-4 md:w-full md:max-w-[702px]">
