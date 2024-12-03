@@ -10,6 +10,7 @@ import ReviewSection from "../organisms/ReviewSection";
 import TrustSection from "../organisms/TrustSection";
 
 import { useEffect } from "react";
+import WhyChoose from "../organisms/WhyChoose";
 
 const Home = () => {
   useEffect(() => {
@@ -24,6 +25,7 @@ const Home = () => {
       <TrustSection />
       <AboutSection />
       <CommitmentSection />
+      <WhyChoose />
       <CompanyGallery />
       <ReviewSection />
       <DownloadAppSection />

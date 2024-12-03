@@ -30,7 +30,7 @@ const TrustSection = () => {
           A Legacy of Trust and Excellence
         </h2>
         <p className="mx-auto max-w-[740px] text-sm leading-[160%] text-[#494949] md:text-center">
-          Founded by{" "}
+          Founded by
           <span className="font-semibold text-black">
             Mr. Shamsudheen Manal Parambil
           </span>
