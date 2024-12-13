@@ -11,7 +11,7 @@ const arrowRight = {
 
 const ProductSection = () => {
   return (
-    <div className="mx-auto max-w-screen-lg">
+    <div id="products" className="mx-auto max-w-screen-lg">
       <div className="mt-8 pb-[30px]">
         <div className="mb-6 space-y-3 px-5">
           <h2 className="text-center text-[34px] font-semibold leading-[120%] md:text-4xl">

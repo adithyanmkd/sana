@@ -2,7 +2,7 @@ import AboutCompany from "../molecules/AboutCompany";
 
 const AboutSection = () => {
   return (
-    <div className="mt-8 pb-[30px]">
+    <div id="about" className="mt-8 pb-[30px]">
       <AboutCompany />
     </div>
   );

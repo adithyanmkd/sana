@@ -7,19 +7,19 @@ const links = [
     linksArray: [
       {
         name: "home",
-        url: "/",
+        url: "#",
       },
       {
         name: "about us",
-        url: "#",
+        url: "#about",
       },
       {
         name: "products",
-        url: "#",
+        url: "#products",
       },
       {
         name: "contact us",
-        url: "#",
+        url: "#contact",
       },
     ],
   },
